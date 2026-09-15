@@ -116,15 +116,16 @@ fokus_pengembangan:
 
 ---
 
-### 📊 GitHub Activity & Contributions
+### 🐍 GitHub Contribution Snake Game
 
-<!-- Grafik Kontribusi / Heatmap Calendar GitHub -->
 <div align="center">
 
-  <p><b>🗓️ Grafik Kontribusi GitHub (Contribution Activity)</b></p>
-  <a href="https://github.com/aksoo10">
-    <img src="./assets/github-contributions.png" alt="Grafik Kontribusi GitHub Agung Aksa" width="100%" />
-  </a>
+  <!-- Animasi Game Ular Memakan Titik Kontribusi (Otomatis adaptif mode terang & gelap) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="./assets/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 
   <br /><br />
 

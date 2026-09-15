@@ -1,0 +1,39 @@
+name: Generate Snake Game
+
+on:
+  schedule:
+    # Dijalankan otomatis setiap 12 jam (UTC)
+    - cron: "0 */12 * * *"
+  
+  # Memungkinkan dijalankan secara manual dari tab Actions di GitHub
+  workflow_dispatch:
+  
+  # Dijalankan setiap kali ada push ke branch main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Game from GitHub Contributions
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push updated snake animation
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update GitHub contribution snake animation [skip ci]" && git push)
