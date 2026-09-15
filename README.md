@@ -5,7 +5,7 @@
 
   <!-- Animated Dynamic Typing SVG -->
   <p align="center">
-    <a href="https://github.com/agungaksa">
+    <a href="https://github.com/aksoo10">
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=580&height=45&lines=Web+Developer+%26+Laravel+Enthusiast;Alumni+Universitas+Sriwijaya+(FASILKOM);Crafting+Clean%2C+Modern+%26+Scalable+Web+Apps;Always+Building%2C+Learning%2C+and+Evolving." alt="Typing SVG" />
     </a>
   </p>
@@ -116,18 +116,25 @@ fokus_pengembangan:
 
 ---
 
-### 📊 GitHub Activity & Statistics
+### 📊 GitHub Activity & Contributions
 
-<!-- Catatan: Ganti 'agungaksa' dengan username GitHub asli Anda jika berbeda -->
+<!-- Grafik Kontribusi / Heatmap Calendar GitHub -->
 <div align="center">
+
+  <p><b>🗓️ Grafik Kontribusi GitHub (Contribution Activity)</b></p>
+  <a href="https://github.com/aksoo10">
+    <img src="./assets/github-contributions.png" alt="Grafik Kontribusi GitHub Agung Aksa" width="100%" />
+  </a>
+
+  <br /><br />
 
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=agungaksa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=F43F5E&text_color=94A3B8" height="165" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=aksoo10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=F43F5E&text_color=94A3B8" height="165" alt="GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=agungaksa&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" height="165" alt="Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=aksoo10&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" height="165" alt="Streak Stats" />
       </td>
     </tr>
   </table>
@@ -140,7 +147,7 @@ fokus_pengembangan:
 
 <div align="center">
 
-  <a href="https://github.com/agungaksa" target="_blank">
+  <a href="https://github.com/aksoo10" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Agung_Aksa-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
