@@ -131,12 +131,12 @@ fokus_pengembangan:
 
   <table border="0">
     <tr>
-      <td>
+      <!-- <td>
         <img src="https://github-readme-stats.vercel.app/api?username=aksoo10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=F43F5E&text_color=94A3B8" height="165" alt="GitHub Stats" />
-      </td>
-      <td>
+      </td> -->
+      <!-- <td>
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=aksoo10&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" height="165" alt="Streak Stats" />
-      </td>
+      </td> -->
     </tr>
   </table>
 
